@@ -1,0 +1,3 @@
+USE school;
+
+SELECT * FROM FACT_SALES;

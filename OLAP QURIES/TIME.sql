@@ -1,0 +1,3 @@
+USE school;
+
+SELECT * FROM TIME_DW;
