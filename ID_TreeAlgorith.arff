@@ -1,0 +1,32 @@
+// sequence to follow
+/*
+    1. Relation
+    2. Attribute
+    3. Data
+
+*/
+
+@relation patient
+
+@attribute age{<30, 31-50, >50}
+@attribute gender{M, F}
+@attribute BP{high, normal, low}
+@attribute Cholestrol{high, normal, low}
+@attribute class{A, B}
+
+@data
+<30, M, high, low, A
+31-50, F, normal, normal, B
+<30, M, high, low, B
+>50, F, normal, normal, A
+31-50, M, low, high, B
+<30, M, high, low, A
+31-50, F, normal, normal, B
+31-50, M, high, high, B
+>50, M, high, normal, A
+>50, F, normal, high, B
+<30, M, low, normal, A
+>50, M, high, low, B
+<30, F, low, normal, A
+>50, F, high, high, B
+
